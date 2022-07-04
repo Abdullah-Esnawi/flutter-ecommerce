@@ -10,7 +10,7 @@ Route<dynamic> onGenerate(RouteSettings settings) {
   switch (settings.name) {
     case AppRoutes.loginPageRoute:
       return CupertinoPageRoute(
-        builder: (_) => LoginPage(),
+        builder: (_) => AuthPage(),
         settings: settings,
       );
     case AppRoutes.bottomNavbarRoute:
