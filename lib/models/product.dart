@@ -25,4 +25,7 @@ List<Product> dummyProduct = [
   Product(id: '2', title: 'T-shirt2', category: 'Clothes', price: 275, imgUrl: AppAssets.tempProductAsset2,discountValue: 10),
   Product(id: '3', title: 'T-shirt3', category: 'Clothes', price: 320, imgUrl: AppAssets.tempProductAsset3,discountValue: 20),
   Product(id: '4', title: 'T-shirt4', category: 'Clothes', price: 310, imgUrl: AppAssets.tempProductAsset4,discountValue: 17),
+  // Product(id: '5', title: 'T-shirt5', category: 'Clothes', price: 310, imgUrl: AppAssets.tempProductAsset4),
+  // Product(id: '6', title: 'T-shirt6', category: 'Clothes', price: 310, imgUrl: AppAssets.tempProductAsset4),
+  // Product(id: '7', title: 'T-shirt7', category: 'Clothes', price: 310, imgUrl: AppAssets.tempProductAsset4),
 ];

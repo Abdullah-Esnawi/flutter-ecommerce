@@ -31,14 +31,12 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 24.0, vertical: 16.0),
                 child: Text(
                   "Street Clothes",
-                  style: Theme.of(context)
-                      .textTheme
-                      .headline4!
-                      .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                      color: Colors.white, fontWeight: FontWeight.bold),
                 ),
               ),
             ],
@@ -52,13 +50,14 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: _size.width * .05),
             child: SizedBox(
-              height: 300,
+              height: _size.height * .36,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: dummyProduct.length,
                 itemBuilder: ((context, index) {
                   return Padding(
-                    padding: EdgeInsets.symmetric(horizontal: _size.width * .02),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: _size.width * .02),
                     child: ListItemHome(
                       product: dummyProduct[index],
                     ),
@@ -75,15 +74,16 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: _size.width * .05),
             child: SizedBox(
-              height: 300,
+              height: _size.height * .36,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: dummyProduct.length,
                 itemBuilder: ((context, index) {
                   return Padding(
-                    padding: EdgeInsets.symmetric(horizontal: _size.width * .02),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: _size.width * .02),
                     child: ListItemHome(
-                      product: dummyProduct[index],
+                      product: dummyProduct[index]
                     ),
                   );
                 }),
